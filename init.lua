@@ -36,7 +36,7 @@ vim.keymap.set("n", "<space>st", function()
 	vim.cmd.vnew()
 	vim.cmd.term()
 	vim.cmd.wincmd("J")
-	vim.api.nvim_win_set_height(0, 5)
+	vim.api.nvim_win_set_height(0, 8)
 end)
 
 require("config.lazy")
